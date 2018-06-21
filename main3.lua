@@ -122,7 +122,7 @@ end
 
 function start(load)
    deg2rad = mpi/180
-   panosource = pixels.new 'panos/26363697850_53505495a2_o.png'
+   panosource = pixels.new 'panos/eq_greed.jpg'
    panoview = pixels.new (600, 400)
 --   panoview = pixels.new (300, 200, 2)
    dest_width, dest_height = panoview:size()
