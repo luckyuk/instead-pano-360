@@ -109,9 +109,9 @@ local camPlaneOriginZ = camDirZ + 0.5 * camUpZ - 0.5 * camRightZ;
 		local phi_i = mfloor(phi_fac * phi);
 --		panosource:copy(phi_i, theta_i, step_w, step_h, panoview, j, i);
 --		panoview:val(j, i,panosource:val(phi_i, theta_i));
---		panoview:fill(j, i, step_w, step_h, panosource:val(phi_i, theta_i));
+		panoview:fill(j, i, step_w, step_h, panosource:val(phi_i, theta_i));
 --		panoview:circleAA(j, i, mmax(step_h/2, 1), panosource:val(phi_i, theta_i))
-		panoview:fill_circle(j, i, mmax(step_h/2, 1), panosource:val(phi_i, theta_i))
+--		panoview:fill_circle(j, i, mmax(step_h/2, 1), panosource:val(phi_i, theta_i))
 --		panoview:lineAA(j, i, math.random(j, j+step_h+step_h), math.random(i, i+step_w+step_w), panosource:val(phi_i, theta_i))
 --		panoview:fill_triangle(j, i, j, math.random(i, i+step_w+step_w), math.random(j, j+step_h+step_h), i, panosource:val(phi_i, theta_i))
 		end
